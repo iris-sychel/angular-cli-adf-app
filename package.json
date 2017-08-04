@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --prod --aot=false --output-path docs"
+    "deploy": "ng build --prod --aot=false --output-path docs --base-href https://denisvuyka.github.io/angular-cli-adf-app/"
   },
   "private": true,
   "dependencies": {
