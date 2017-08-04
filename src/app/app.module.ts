@@ -1,6 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+// ADF components
+import { CoreModule } from 'ng2-alfresco-core';
+import { DataTableModule } from 'ng2-alfresco-datatable';
+
+// App components
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -8,7 +13,11 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+
+    // ADF component modules
+    CoreModule.forRoot(),
+    DataTableModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
