@@ -1,7 +1,8 @@
-# AdfApp
+# ADF Application with Angular CLI
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.6.
 
+[Live demo](https://denisvuyka.github.io/angular-cli-adf-app/)
 
 ## Quick start
 
