@@ -18,6 +18,7 @@ This project has the following ADF component libraries already pre-configured:
 
 - Core (ng2-alfresco-core)
 - DataTable (ng2-alfresco-datatable)
+- Viewer (ng2-alfresco-viewer)
 
 ## Development server
 
