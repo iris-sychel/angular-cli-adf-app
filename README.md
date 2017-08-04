@@ -2,6 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.6.
 
+## Supported ADF component libraries
+
+This project has the following ADF component libraries already pre-configured:
+
+- Core (ng2-alfresco-core)
+- DataTable (ng2-alfresco-datatable)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
