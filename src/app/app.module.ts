@@ -5,22 +5,26 @@ import { RouterModule, Routes } from '@angular/router';
 // ADF components
 import { CoreModule } from 'ng2-alfresco-core';
 import { DataTableModule } from 'ng2-alfresco-datatable';
+import { ViewerModule } from 'ng2-alfresco-viewer';
 
 // App components
 import { AppComponent } from './app.component';
 import { DatatableComponent } from './datatable/datatable.component';
 import { HomeComponent } from './home/home.component';
+import { ViewerComponent } from './viewer/viewer.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'datatable', component: DatatableComponent }
+  { path: 'datatable', component: DatatableComponent },
+  { path: 'viewer', component: ViewerComponent }
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
     DatatableComponent,
-    HomeComponent
+    HomeComponent,
+    ViewerComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +35,8 @@ const appRoutes: Routes = [
 
     // ADF component modules
     CoreModule,
-    DataTableModule
+    DataTableModule,
+    ViewerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
