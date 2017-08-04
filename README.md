@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.6.
 
+
+## Quick start
+
+```sh
+git clone https://github.com/DenisVuyka/angular-cli-adf-app.git
+cd angular-cli-adf-app
+npm install
+ng serve --open
+```
+
 ## Supported ADF component libraries
 
 This project has the following ADF component libraries already pre-configured:
