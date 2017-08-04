@@ -16,8 +16,8 @@ import { AppComponent } from './app.component';
     BrowserModule,
 
     // ADF component modules
-    CoreModule.forRoot(),
-    DataTableModule.forRoot()
+    CoreModule,
+    DataTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
