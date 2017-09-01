@@ -23,13 +23,6 @@ const appRoutes: Routes = [
 ];
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    DatatableComponent,
-    HomeComponent,
-    ViewerComponent,
-    DocumentlistComponent
-  ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(
@@ -42,6 +35,13 @@ const appRoutes: Routes = [
     DataTableModule,
     ViewerModule,
     DocumentListModule
+  ],
+  declarations: [
+    AppComponent,
+    DatatableComponent,
+    HomeComponent,
+    ViewerComponent,
+    DocumentlistComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
