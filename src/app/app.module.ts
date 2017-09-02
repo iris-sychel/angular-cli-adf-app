@@ -11,6 +11,7 @@ import { LoginModule } from 'ng2-alfresco-login';
 import { UploadModule } from 'ng2-alfresco-upload';
 import { SearchModule } from 'ng2-alfresco-search';
 import { UserInfoComponentModule } from 'ng2-alfresco-userinfo';
+import { SocialModule } from 'ng2-alfresco-social';
 
 
 // App components
@@ -35,7 +36,7 @@ const appRoutes: Routes = [
       // { enableTracing: true } // <-- debugging purposes only
     ),
 
-    // ADF component modules
+    // ADF modules
     CoreModule,
     LoginModule,
     DataTableModule,
@@ -43,7 +44,8 @@ const appRoutes: Routes = [
     DocumentListModule,
     UploadModule,
     SearchModule,
-    UserInfoComponentModule
+    UserInfoComponentModule,
+    SocialModule
   ],
   declarations: [
     AppComponent,
