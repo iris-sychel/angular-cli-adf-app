@@ -8,6 +8,7 @@ import { DataTableModule } from 'ng2-alfresco-datatable';
 import { ViewerModule } from 'ng2-alfresco-viewer';
 import { DocumentListModule } from 'ng2-alfresco-documentlist';
 import { LoginModule } from 'ng2-alfresco-login';
+import { UploadModule } from 'ng2-alfresco-upload';
 
 // App components
 import { AppComponent } from './app.component';
@@ -36,7 +37,8 @@ const appRoutes: Routes = [
     LoginModule,
     DataTableModule,
     ViewerModule,
-    DocumentListModule
+    DocumentListModule,
+    UploadModule
   ],
   declarations: [
     AppComponent,
