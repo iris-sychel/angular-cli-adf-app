@@ -15,6 +15,7 @@ import { SocialModule } from 'ng2-alfresco-social';
 import { TagModule } from 'ng2-alfresco-tag';
 import { WebScriptModule } from 'ng2-alfresco-webscript';
 import { ActivitiFormModule } from 'ng2-activiti-form';
+import { ActivitiTaskListModule } from 'ng2-activiti-tasklist';
 
 // App components
 import { AppComponent } from './app.component';
@@ -50,7 +51,8 @@ const appRoutes: Routes = [
     UserInfoComponentModule,
     ViewerModule,
     WebScriptModule,
-    ActivitiFormModule
+    ActivitiFormModule,
+    ActivitiTaskListModule
   ],
   declarations: [
     AppComponent,
