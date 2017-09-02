@@ -12,6 +12,7 @@
         "favicon.ico",
 
         { "glob": "**/*", "input": "../node_modules/ng2-alfresco-core/bundles/assets", "output": "./assets/" },
+
         { "glob": "**/*", "input": "../node_modules/ng2-alfresco-datatable/bundles/assets", "output": "./assets/" },
         { "glob": "**/*", "input": "../node_modules/ng2-alfresco-viewer/bundles/assets", "output": "./assets/" },
         { "glob": "**/*", "input": "../node_modules/ng2-alfresco-documentlist/bundles/assets", "output": "./assets/" },
@@ -22,6 +23,8 @@
         { "glob": "**/*", "input": "../node_modules/ng2-alfresco-social/bundles/assets", "output": "./assets/" },
         { "glob": "**/*", "input": "../node_modules/ng2-alfresco-tag/bundles/assets", "output": "./assets/" },
         { "glob": "**/*", "input": "../node_modules/ng2-alfresco-webscript/bundles/assets", "output": "./assets/" },
+
+        { "glob": "**/*", "input": "../node_modules/ng2-activiti-form/bundles/assets", "output": "./assets/" },
 
         { "glob": "pdf.worker.js", "input": "../node_modules/pdfjs-dist/build", "output": "./" }
       ],
