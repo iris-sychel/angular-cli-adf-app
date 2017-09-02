@@ -12,6 +12,7 @@ import { UploadModule } from 'ng2-alfresco-upload';
 import { SearchModule } from 'ng2-alfresco-search';
 import { UserInfoComponentModule } from 'ng2-alfresco-userinfo';
 import { SocialModule } from 'ng2-alfresco-social';
+import { TagModule } from 'ng2-alfresco-tag';
 
 
 // App components
@@ -38,14 +39,15 @@ const appRoutes: Routes = [
 
     // ADF modules
     CoreModule,
-    LoginModule,
     DataTableModule,
-    ViewerModule,
     DocumentListModule,
-    UploadModule,
+    LoginModule,
     SearchModule,
+    SocialModule,
+    TagModule,
+    UploadModule,
     UserInfoComponentModule,
-    SocialModule
+    ViewerModule
   ],
   declarations: [
     AppComponent,
