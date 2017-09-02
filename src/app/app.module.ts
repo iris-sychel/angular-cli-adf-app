@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-// ADF components
+// ADF modules
 import { CoreModule } from 'ng2-alfresco-core';
 import { DataTableModule } from 'ng2-alfresco-datatable';
 import { ViewerModule } from 'ng2-alfresco-viewer';
@@ -10,6 +10,8 @@ import { DocumentListModule } from 'ng2-alfresco-documentlist';
 import { LoginModule } from 'ng2-alfresco-login';
 import { UploadModule } from 'ng2-alfresco-upload';
 import { SearchModule } from 'ng2-alfresco-search';
+import { UserInfoComponentModule } from 'ng2-alfresco-userinfo';
+
 
 // App components
 import { AppComponent } from './app.component';
@@ -40,7 +42,8 @@ const appRoutes: Routes = [
     ViewerModule,
     DocumentListModule,
     UploadModule,
-    SearchModule
+    SearchModule,
+    UserInfoComponentModule
   ],
   declarations: [
     AppComponent,
