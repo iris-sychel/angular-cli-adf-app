@@ -21,6 +21,7 @@
         { "glob": "**/*", "input": "../node_modules/ng2-alfresco-userinfo/bundles/assets", "output": "./assets/" },
         { "glob": "**/*", "input": "../node_modules/ng2-alfresco-social/bundles/assets", "output": "./assets/" },
         { "glob": "**/*", "input": "../node_modules/ng2-alfresco-tag/bundles/assets", "output": "./assets/" },
+        { "glob": "**/*", "input": "../node_modules/ng2-alfresco-webscript/bundles/assets", "output": "./assets/" },
 
         { "glob": "pdf.worker.js", "input": "../node_modules/pdfjs-dist/build", "output": "./" }
       ],

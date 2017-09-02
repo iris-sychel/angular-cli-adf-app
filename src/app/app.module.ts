@@ -13,7 +13,7 @@ import { SearchModule } from 'ng2-alfresco-search';
 import { UserInfoComponentModule } from 'ng2-alfresco-userinfo';
 import { SocialModule } from 'ng2-alfresco-social';
 import { TagModule } from 'ng2-alfresco-tag';
-
+import { WebScriptModule } from 'ng2-alfresco-webscript';
 
 // App components
 import { AppComponent } from './app.component';
@@ -47,7 +47,8 @@ const appRoutes: Routes = [
     TagModule,
     UploadModule,
     UserInfoComponentModule,
-    ViewerModule
+    ViewerModule,
+    WebScriptModule
   ],
   declarations: [
     AppComponent,
