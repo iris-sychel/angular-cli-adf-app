@@ -7,6 +7,7 @@ import { CoreModule } from 'ng2-alfresco-core';
 import { DataTableModule } from 'ng2-alfresco-datatable';
 import { ViewerModule } from 'ng2-alfresco-viewer';
 import { DocumentListModule } from 'ng2-alfresco-documentlist';
+import { LoginModule } from 'ng2-alfresco-login';
 
 // App components
 import { AppComponent } from './app.component';
@@ -32,6 +33,7 @@ const appRoutes: Routes = [
 
     // ADF component modules
     CoreModule,
+    LoginModule,
     DataTableModule,
     ViewerModule,
     DocumentListModule
