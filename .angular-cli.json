@@ -27,6 +27,8 @@
         { "glob": "**/*", "input": "../node_modules/ng2-activiti-form/bundles/assets", "output": "./assets/" },
         { "glob": "**/*", "input": "../node_modules/ng2-activiti-tasklist/bundles/assets", "output": "./assets/" },
         { "glob": "**/*", "input": "../node_modules/ng2-activiti-processlist/bundles/assets", "output": "./assets/" },
+        { "glob": "**/*", "input": "../node_modules/ng2-activiti-diagrams/bundles/assets", "output": "./assets/" },
+        { "glob": "**/*", "input": "../node_modules/ng2-activiti-analytics/bundles/assets", "output": "./assets/" },
 
         { "glob": "pdf.worker.js", "input": "../node_modules/pdfjs-dist/build", "output": "./" }
       ],

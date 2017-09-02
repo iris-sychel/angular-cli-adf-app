@@ -17,6 +17,8 @@ import { WebScriptModule } from 'ng2-alfresco-webscript';
 import { ActivitiFormModule } from 'ng2-activiti-form';
 import { ActivitiTaskListModule } from 'ng2-activiti-tasklist';
 import { ActivitiProcessListModule } from 'ng2-activiti-processlist';
+import { DiagramsModule } from 'ng2-activiti-diagrams';
+import { AnalyticsModule } from 'ng2-activiti-analytics';
 
 // App components
 import { AppComponent } from './app.component';
@@ -54,7 +56,9 @@ const appRoutes: Routes = [
     WebScriptModule,
     ActivitiFormModule,
     ActivitiTaskListModule,
-    ActivitiProcessListModule
+    ActivitiProcessListModule,
+    DiagramsModule,
+    AnalyticsModule
   ],
   declarations: [
     AppComponent,
