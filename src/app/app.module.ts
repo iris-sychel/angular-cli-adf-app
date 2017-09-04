@@ -26,9 +26,11 @@ import { DatatableComponent } from './datatable/datatable.component';
 import { HomeComponent } from './home/home.component';
 import { ViewerComponent } from './viewer/viewer.component';
 import { DocumentlistComponent } from './documentlist/documentlist.component';
+import { LoginComponent } from './login/login.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
+  { path: 'login', component: LoginComponent },
   { path: 'datatable', component: DatatableComponent },
   { path: 'viewer', component: ViewerComponent },
   { path: 'documentlist', component: DocumentlistComponent }
@@ -65,7 +67,8 @@ const appRoutes: Routes = [
     DatatableComponent,
     HomeComponent,
     ViewerComponent,
-    DocumentlistComponent
+    DocumentlistComponent,
+    LoginComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
