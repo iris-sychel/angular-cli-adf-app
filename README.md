@@ -17,12 +17,7 @@ ng serve --open
 
 ## Supported ADF component libraries
 
-This project has the following ADF component libraries already pre-configured:
-
-- Core (ng2-alfresco-core)
-- DataTable (ng2-alfresco-datatable)
-- Viewer (ng2-alfresco-viewer)
-- DocumentList (ng2-alfresco-documentlist)
+This project has all the existing ADF component libraries already pre-configured.
 
 ## Development server
 
