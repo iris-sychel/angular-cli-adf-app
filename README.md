@@ -23,6 +23,16 @@ This project has all the existing ADF component libraries already pre-configured
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+### Proxy settings
+
+The template provides certain proxy settings to allow running web application locally without CORS setup.
+You can find details in the `proxy.conf.json` file.
+
+List of URLs being proxied:
+
+- `/ecm` -> `http://0.0.0.0:8080`
+- `/bpm` -> `http://0.0.0.0:9999`
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
