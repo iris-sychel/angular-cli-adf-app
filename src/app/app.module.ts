@@ -3,22 +3,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 // ADF modules
-import { CoreModule } from 'ng2-alfresco-core';
-import { DataTableModule } from 'ng2-alfresco-datatable';
-import { ViewerModule } from 'ng2-alfresco-viewer';
-import { DocumentListModule } from 'ng2-alfresco-documentlist';
-import { LoginModule } from 'ng2-alfresco-login';
-import { UploadModule } from 'ng2-alfresco-upload';
-import { SearchModule } from 'ng2-alfresco-search';
-import { UserInfoComponentModule } from 'ng2-alfresco-userinfo';
-import { SocialModule } from 'ng2-alfresco-social';
-import { TagModule } from 'ng2-alfresco-tag';
-import { WebScriptModule } from 'ng2-alfresco-webscript';
-import { ActivitiFormModule } from 'ng2-activiti-form';
-import { ActivitiTaskListModule } from 'ng2-activiti-tasklist';
-import { ActivitiProcessListModule } from 'ng2-activiti-processlist';
-import { DiagramsModule } from 'ng2-activiti-diagrams';
-import { AnalyticsModule } from 'ng2-activiti-analytics';
+import { AdfModule } from './adf.module';
 
 // App components
 import { AppComponent } from './app.component';
@@ -45,22 +30,7 @@ const appRoutes: Routes = [
     ),
 
     // ADF modules
-    CoreModule,
-    DataTableModule,
-    DocumentListModule,
-    LoginModule,
-    SearchModule,
-    SocialModule,
-    TagModule,
-    UploadModule,
-    UserInfoComponentModule,
-    ViewerModule,
-    WebScriptModule,
-    ActivitiFormModule,
-    ActivitiTaskListModule,
-    ActivitiProcessListModule,
-    DiagramsModule,
-    AnalyticsModule
+    AdfModule
   ],
   declarations: [
     AppComponent,

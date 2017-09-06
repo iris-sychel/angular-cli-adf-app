@@ -1,5 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
+import { AdfModule } from '../adf.module';
 import { DocumentlistComponent } from './documentlist.component';
 
 describe('DocumentlistComponent', () => {
@@ -8,6 +9,9 @@ describe('DocumentlistComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+      imports: [
+        AdfModule
+      ],
       declarations: [ DocumentlistComponent ]
     })
     .compileComponents();

@@ -1,5 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
+import { AdfModule } from '../adf.module';
 import { DatatableComponent } from './datatable.component';
 
 describe('DatatableComponent', () => {
@@ -8,6 +9,9 @@ describe('DatatableComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+      imports: [
+        AdfModule
+      ],
       declarations: [ DatatableComponent ]
     })
     .compileComponents();

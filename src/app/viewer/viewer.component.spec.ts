@@ -1,5 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
+import { AdfModule } from '../adf.module';
 import { ViewerComponent } from './viewer.component';
 
 describe('ViewerComponent', () => {
@@ -8,6 +9,9 @@ describe('ViewerComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+      imports: [
+        AdfModule
+      ],
       declarations: [ ViewerComponent ]
     })
     .compileComponents();
