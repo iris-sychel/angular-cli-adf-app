@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/Alfresco/angular-cli-adf-app.svg?branch=master)](https://travis-ci.org/Alfresco/angular-cli-adf-app)
-
 # ADF Application with Angular CLI
 
 Minimal ready-to-use Angular CLI project template pre-configured with ADF 1.8.0 components.
