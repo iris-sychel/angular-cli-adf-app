@@ -14,12 +14,17 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 git clone https://github.com/Alfresco/angular-cli-adf-app.git
 cd angular-cli-adf-app
 npm install
-ng serve --open
+npm start
 ```
 
 ## Supported ADF component libraries
 
 This project has all the existing ADF component libraries already pre-configured.
+
+The main focus of the project is:
+
+- ADF integration and setup
+- Basic demonstration of working components
 
 ## Development server
 
