@@ -2,9 +2,9 @@
 
 Minimal ready-to-use Angular CLI project template pre-configured with ADF 1.8.0 components.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.0
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2
 
-[Live demo](https://alfresco.github.io/angular-cli-adf-app/)
+[Documentation](https://alfresco.github.io/angular-cli-adf-app/)
 
 ## Quick start
 
